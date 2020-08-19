@@ -1,0 +1,60 @@
+/* body{
+    background-color: black;    
+    color: white;
+} */
+
+/* 32DBA3 hightlight text */
+/* fff hightlight text */
+
+body{
+    background-color: white;    
+    color: white;
+}
+
+.nav-bar-custom{
+    background-color: #12222E !important; 
+}
+
+.div-custom{
+    background-color: #12222E !important; 
+}
+
+.active a{
+    color: #32DBA3 !important; 
+}
+
+.nav-item a:hover{
+    color: #32DBA3 !important; 
+}
+
+.nav-logo{
+    height: 30px;
+    width: 30px;
+}
+
+.div-light{
+    background-color: white;
+}
+
+.div-dark{
+    background-color: #222222;    
+}
+
+.my-banner{
+     /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("/img/portfolio/hotel.jpg");
+    /* Set a specific height */
+    height: 500px;
+    /* Position and center the image to scale nicely on all screens */
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.img-custom{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
