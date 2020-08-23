@@ -1,30 +1,29 @@
-/* body{
-    background-color: black;    
-    color: white;
-} */
-
-/* 32DBA3 hightlight text */
-/* fff hightlight text */
-
 body{
-    background-color: white;    
-    color: white;
+    background-color: white; 
+}
+/* Night mode color */
+/* 12222E */
+/* 32DBA3 */
+:root {
+    --main-primary-color: #dd7631;
+    --main-secondary-color: #708160;
+    --main-tertiary-color: #d8c593;
+
+  }
+
+.fas{
+    color: black !important;
 }
 
-.nav-bar-custom{
-    background-color: #12222E !important; 
+.fas:hover{
+    color:#32DBA3 !important;
 }
 
-.div-custom{
-    background-color: #12222E !important; 
-}
+/* Primary */
 
-.active a{
-    color: #32DBA3 !important; 
-}
-
-.nav-item a:hover{
-    color: #32DBA3 !important; 
+.navbar-primary{
+    background-color: var(--main-primary-color) !important;    
+    color: white !important;
 }
 
 .nav-logo{
@@ -32,21 +31,78 @@ body{
     width: 30px;
 }
 
-.div-light{
-    background-color: white;
+.navbar-primary .fas{
+    color:white !important; 
 }
 
-.div-dark{
-    background-color: #222222;    
+.navbar-primary .fas:hover{
+    color: #32DBA3 !important; 
 }
+
+.navbar-primary .navbar-brand:hover{
+    color: #32DBA3 !important; 
+}
+
+.navbar-primary .nav-item a:hover{
+    color: #32DBA3 !important; 
+}
+
+.navbar-primary .nav-item a{
+    color: white !important; 
+}
+
+.navbar-primary .active a{
+    color: #32DBA3 !important; 
+}
+
+.div-primary{
+    background-color: var(--main-primary-color) !important; 
+    color: white !important;
+}
+
+.footer-primary{
+    background-color: var(--main-primary-color) !important;
+    color: white !important;   
+}
+
+/* Secondary */
+
+.div-secondary{
+    background-color: var(--main-secondary-color) !important; 
+    color: white !important;
+}
+
+.div-secondary .fas{
+    color: white !important;
+}
+
+.div-secondary .fas:hover{
+    color:#32DBA3 !important;
+}
+
+/* Tertiary */
+
+.div-tertiary{
+    background-color: var(--main-tertiary-color) !important; 
+    color: black !important;
+}
+
+.div-tertiary .fas{
+    color: black !important;
+}
+
+.div-tertiary .fas:hover{
+    color:#32DBA3 !important;
+}
+
 
 .my-banner{
      /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("/img/portfolio/hotel.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("/img/index/header.jpg");
     /* Set a specific height */
-    height: 500px;
+    height: 600px;
     /* Position and center the image to scale nicely on all screens */
-    background-position: top;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -56,5 +112,42 @@ body{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 80%;
+    width: 100%;
+}
+
+.room-image:focus{
+    border: 10px solid transparent;
+    padding: 15px;
+    border-color: teal;
+}
+
+.news-hashtag{
+    font-family: FreightSansProMedium-Regular;
+    font-size: 1.2em;
+    letter-spacing: .15em;
+    text-transform: uppercase;
+    margin: 0px;
+}
+
+.news-title{
+    font-family: FreightDispProMedium-Italic;
+    font-size: 2em;
+    text-transform: uppercase;
+    margin: 0px;
+}
+
+.news-body{
+    font-family: FreightDispProMedium-Italic;
+    font-size: 1em;
+    margin: 0px;
+}
+
+.news-more{
+    font-family: FreightSansProBold-Regular;
+    font-size: .875em;
+    text-transform: uppercase;
+    display: inline-block;
+    position: relative;
+    color: #0f172b !important;
+    letter-spacing: .25em;
 }
