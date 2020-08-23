@@ -3,6 +3,8 @@
 /* 12222E */
 /* 32DBA3 */
 :root {
+    --body-bg: white;
+    --body-text-color: black;
     --main-primary-color: #dd7631;
     --main-primary-color-hover: #708160;
     --main-secondary-color: #708160;
@@ -11,10 +13,12 @@
 
 button:focus{
     outline: 0px auto white !important;
+
 }
 
 body{
-    background-color: white; 
+    background-color: var(--body-bg); 
+    color: var(--body-text-color); 
 }
 
 h1{
