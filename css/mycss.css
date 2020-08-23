@@ -6,7 +6,10 @@
     --main-primary-color: #dd7631;
     --main-secondary-color: #708160;
     --main-tertiary-color: #d8c593;
+}
 
+button:focus{
+    outline: 0px auto white !important;
 }
 
 body{
@@ -17,6 +20,19 @@ h1{
     font-family: 'Great Vibes';
     font-weight: 900;
 }
+
+.btn-outline-primary {
+    color: var(--main-primary-color) !important;
+    border-color: var(--main-primary-color) !important;
+}
+
+.btn-outline-primary:hover {
+    color: rgb(255, 255, 255) !important;
+    background-color: var(--main-primary-color) !important;
+    border-color: var(--main-primary-color) !important;
+}
+
+
 
 .fas{
     color: black !important;
@@ -128,6 +144,8 @@ h1{
     border-color: teal;
 }
 
+/* News */
+
 .news-hashtag{
     font-family: FreightSansProMedium-Regular;
     font-size: 1.2em;
@@ -155,7 +173,49 @@ h1{
     text-transform: uppercase;
     display: inline-block;
     position: relative;
-    color: #0f172b !important;
+    color: var(--main-primary-color) !important;
     letter-spacing: .25em;
 }
 
+.news-more:hover{
+    color: #32DBA3 !important;
+}
+
+/* Dining */
+
+.dining-main-image{
+    object-fit: cover;
+    height: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.dining-secondary-image{
+    object-fit: cover;
+    height: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.dining-title{
+    font-family: FreightDispProMedium-Italic;
+    font-size: 2em;
+    text-transform: uppercase;
+    margin: 0px;
+}
+
+.dining-body{
+    height: 132px;
+    font-family: FreightDispProMedium-Italic;
+    font-size: 1em;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.dining button{
+    width: 100%;
+}
