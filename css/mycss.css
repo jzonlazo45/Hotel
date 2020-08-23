@@ -4,6 +4,7 @@
 /* 32DBA3 */
 :root {
     --main-primary-color: #dd7631;
+    --main-primary-color-hover: #708160;
     --main-secondary-color: #708160;
     --main-tertiary-color: #d8c593;
 }
@@ -39,7 +40,7 @@ h1{
 }
 
 .fas:hover{
-    color:#32DBA3 !important;
+    color: var(--main-primary-color-hover) !important;
 }
 
 /* Primary */
@@ -59,15 +60,15 @@ h1{
 }
 
 .navbar-primary .fas:hover{
-    color: #32DBA3 !important; 
+    color: var(--main-primary-color-hover) !important;
 }
 
 .navbar-primary .navbar-brand:hover{
-    color: #32DBA3 !important; 
+    color: var(--main-primary-color-hover) !important;
 }
 
 .navbar-primary .nav-item a:hover{
-    color: #32DBA3 !important; 
+    color: var(--main-primary-color-hover) !important;
 }
 
 .navbar-primary .nav-item a{
@@ -75,7 +76,7 @@ h1{
 }
 
 .navbar-primary .active a{
-    color: #32DBA3 !important; 
+    color: var(--main-primary-color-hover) !important;
 }
 
 .div-primary{
@@ -100,7 +101,7 @@ h1{
 }
 
 .div-secondary .fas:hover{
-    color:#32DBA3 !important;
+    color: var(--main-primary-color-hover) !important;
 }
 
 /* Tertiary */
@@ -115,7 +116,7 @@ h1{
 }
 
 .div-tertiary .fas:hover{
-    color:#32DBA3 !important;
+    color: var(--main-primary-color-hover) !important;
 }
 
 
@@ -178,7 +179,7 @@ h1{
 }
 
 .news-more:hover{
-    color: #32DBA3 !important;
+    color: var(--main-primary-color-hover) !important;
 }
 
 /* Dining */
