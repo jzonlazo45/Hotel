@@ -1,6 +1,4 @@
-body{
-    background-color: white; 
-}
+
 /* Night mode color */
 /* 12222E */
 /* 32DBA3 */
@@ -9,7 +7,16 @@ body{
     --main-secondary-color: #708160;
     --main-tertiary-color: #d8c593;
 
-  }
+}
+
+body{
+    background-color: white; 
+}
+
+h1{
+    font-family: 'Great Vibes';
+    font-weight: 900;
+}
 
 .fas{
     color: black !important;
@@ -151,3 +158,4 @@ body{
     color: #0f172b !important;
     letter-spacing: .25em;
 }
+
